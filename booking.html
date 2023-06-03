@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Booking Form</title>
+    <link rel="stylesheet" type="text/css" href="booking.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="images/logo1.png" alt="Logo" />
+        </div>
+        <ul class="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="booking.html">Booking</a></li>
+          <li><a href="review.html">Reviews</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <h1>Booking Form</h1>
+
+      <form>
+        <h3>Package Selection</h3>
+        <select>
+          <option value="package1">Package 1</option>
+          <option value="package2">Package 2</option>
+          <option value="package3">Package 3</option>
+        </select>
+
+        <h3>Traveler Information</h3>
+        <div class="form-group">
+          <label for="name">Full Name:</label>
+          <input
+            class="input"
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your full name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address:</label>
+          <input
+            class="input"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email address"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number:</label>
+          <input
+            class="input"
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Enter your phone number"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="requirements">Special Requirements:</label>
+          <textarea
+            id="requirements"
+            name="requirements"
+            placeholder="Enter any specific requirements"
+          ></textarea>
+        </div>
+
+        <h3>Payment Information</h3>
+        <div class="form-group">
+          <label for="card">Card Number:</label>
+          <input
+            class="input"
+            type="text"
+            id="card"
+            name="card"
+            placeholder="Enter your card number"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="expiry">Expiration Date:</label>
+          <input
+            class="input"
+            type="text"
+            id="expiry"
+            name="expiry"
+            placeholder="MM/YYYY"
+            required
+          />
+        </div>
+
+        <button type="submit">Submit Booking</button>
+      </form>
+    </div>
+    <footer>
+      <p>&copy; 2023 Travel Website. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

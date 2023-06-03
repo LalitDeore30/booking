@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Travel Package</title>
+    <link rel="stylesheet" type="text/css" href="review.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="images/logo1.png" alt="Logo" />
+        </div>
+        <ul class="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="booking.html">Booking</a></li>
+          <li><a href="review.html">Reviews</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <h1>Review Section</h1>
+    </div>
+
+    <main>
+      <div class="container">
+        <h2>Destination Name</h2>
+        <form id="search-form">
+          <input
+            type="text"
+            class="Search"
+            placeholder="Destination"
+            id="destination-input"
+          />
+          <button type="select">Search</button>
+        </form>
+        <p>Package details and itinerary go here.</p>
+
+        <h3>Reviews & Ratings</h3>
+
+        <form id="review-form">
+          <div>
+            <label for="name">Name:</label>
+            <input class="name" type="text" id="name" name="name" />
+          </div>
+          <div>
+            <label for="rating">Rating:</label>
+            <select id="rating" name="rating">
+              <option value="5">5 Stars</option>
+              <option value="4">4 Stars</option>
+              <option value="3">3 Stars</option>
+              <option value="2">2 Stars</option>
+              <option value="1">1 Star</option>
+            </select>
+          </div>
+          <div>
+            <label for="review">Review:</label>
+            <textarea id="review" class="name" name="review"></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Travel Website. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

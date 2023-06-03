@@ -1,0 +1,135 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #edc4bd;
+  color: #fff;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.navbar li a:hover {
+  background-color: #010101;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.navbar li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#search-form {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #f4e4cf;
+}
+
+.Search{
+  text-align: center;
+  border: 1px solid greenyellow;
+  border-radius: 5px;
+  height: 30px;
+  width: 300px;
+}
+
+button{
+  background-color: #7dd8f4;
+  border:none;
+  color: white;
+  border-radius: 5px;
+  height: 32px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.tour {
+  display: flex;
+  height: 600px;
+  width: 100%;
+}
+
+#popular-destinations {
+  padding: 20px;
+}
+
+.destination-card {
+  display: inline-block;
+  width: 270px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+p{
+  text-align: start;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+.deal-card {
+  display: inline-block;
+  width: 270px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #f9eaea;
+  text-align: center;
+}
+
+
+
+.package-card {
+  display: inline-block;
+  width: 270px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #eaf1f9;
+  text-align: center;
+}
+footer p{
+  text-align: center;
+}
+footer {
+  background-color: #edc4bd;
+  color: #fff;
+  padding: 20px;
+}
+
+
